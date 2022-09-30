@@ -9,7 +9,7 @@ This page has three parts:
 
 ### A Table of available organizations
 
-At the top of the page, you will see a table of existing organizations that the user has access to. The table has only one row, Organization Name. The values in the table are links to other pages of the table showing only information related to the organization you chose in the table.
+At the top of the page, you will see a table of existing organizations that the user has access to. The table has only one column, Organization Name. The values in the table are links to other pages of the table showing only information related to the organization you chose in the table.
 
 ### Organization Access Request
 
