@@ -31,3 +31,29 @@ The number of fileds can change depending on the value chosen in the first field
 The first field is Category.
 When you choose a category field, the form will display additional fileds that will help you better define your case.
 
+The category field has four values to choose from: General, Create User Request, Deactivate User Request and User Credentials Reset Request.
+
+#### General
+
+The general category displays three fields.
+The first field Subject and it is used for the name of the case.
+
+The second field Description is used to define the issue of your case.
+
+The third field Attachments are used to send images and documentation that is relevant to the case issue.
+
+#### Create User Request
+
+The create user request category displays six fields.
+
+The first field is First Name.
+
+The second field is Last Name.
+
+The third field is Display Name.
+
+The fourth field is Username.
+
+The fifth field is Office Phone.
+
+The sixth field is Mobile Phone.
