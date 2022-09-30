@@ -33,6 +33,7 @@ When you choose a category field, the form will display additional fileds that w
 
 The category field has four values to choose from: General, Create User Request, Deactivate User Request and User Credentials Reset Request.
 
+
 #### General
 
 The general category displays three fields.
@@ -41,6 +42,7 @@ The first field Subject and it is used for the name of the case.
 The second field Description is used to define the issue of your case.
 
 The third field Attachments are used to send images and documentation that is relevant to the case issue.
+
 
 #### Create User Request
 
@@ -57,3 +59,9 @@ The fourth field is Username.
 The fifth field is Office Phone.
 
 The sixth field is Mobile Phone.
+
+
+#### Deactivate User Request
+
+Deactivate user request has three fields.
+
