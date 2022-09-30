@@ -1,0 +1,1 @@
+The entire applications shows information related to the organization the user is a member of.
