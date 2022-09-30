@@ -9,7 +9,8 @@ This page has three parts:
 
 ### A Table of available organizations
 
-At the top of the page, you will see a table of existing organizations that the user has access to. The table has only one column, Organization Name. The values in the table are links to other pages of the table showing only information related to the organization you chose in the table.
+At the top of the page, you will see a table that reflects the permissions you have for the given organizations, if any.
+The table lists the organizations you have access to. It has only one column, Organization Name. The values in the table are links to other pages of the application showing only information related to the organization you chose in the table.
 
 ### Organization Access Request
 
