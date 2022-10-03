@@ -65,3 +65,19 @@ The sixth field is Mobile Phone.
 
 Deactivate user request has three fields.
 
+The first field is Username.
+
+The second field is Mailbox Full access members, write members that have full access to user mailbox.
+
+The third field is a Checkbox Consent to erase all data and reinstall operating system on user device.
+
+
+#### User Credentials Reset Request
+
+User credentials reset request has three fields.
+
+The first field is Username.
+
+The second field is a Checkbox Reset password.
+
+The third field is a Checkbox Require re-register multi-factor authentication.
