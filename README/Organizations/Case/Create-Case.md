@@ -81,3 +81,12 @@ The first field is Username.
 The second field is a Checkbox Reset password.
 
 The third field is a Checkbox Require re-register multi-factor authentication.
+
+
+### Action buttons
+
+On the top of the create Case we have two buttons. 
+
+The Save button is disabled until the user fills i the values in all the required fields. When you press save a new case will be created based on the values you set inside the fields.
+
+The TeamViewer button will download a link that will enable a Nodefusion Support agent to connect to your computer to help you define the case.
