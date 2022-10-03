@@ -25,3 +25,10 @@ The seventh field is New Comment. New Comment is the second field that can be ed
 The eighth field is Severity.
 
 The ninth field is Support Level.
+
+
+### Action Buttons
+
+The Save button will update the Status field if it was changed and will add a new comment inside the case if the user set a value inside the field.
+
+The TeamViewer button will download a link that will allow a Nodefusion Support agent to connect to the user's computer and help discuss the case.
