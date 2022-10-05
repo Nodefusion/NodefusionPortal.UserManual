@@ -3,39 +3,39 @@
 Organization profile page has three parts.
 
 
-### Part One
+### Profile
 
 The first part displays information about the organization.
 
-It has four fields.
+The first field shows Nodefusion Portal Organization ID.
 
-The first field is ID.
-
-The second field is Name.
+The second field is Name of the organization.
 
 The third field is Address.
 
 The fourth field is VAT ID.
 
 
-### Part Two
+### Billing Services
 
-The second part displays Billing Service Information.
+This part displays Billing Service Information.
 
 It displays a Billing Service table with four columns.
 
 The first column is a Checkbox. You can select one or multiple rows inside the table and then use the Save button on top of the table to save changes for the selected rows.
 
-The second column is Billing Service. It cannot be modified.
+The second column is Billing Service name. It cannot be modified (read-only).
 
-The third column is Business Unit. It cannot be modified.
+The third column is Business Unit. It cannot be modified (read-only).
 
 The fourth column is Bill To Email. This field can be modified.
 
+:warning:**_NOTE:_**  
+Keep in mind that this change needs to be approved by the Nodefusion administration and is NOT applied immediately.
 
-### Part Three
+### Contacts
 
-The third part of the page displays information regarding the Contacts.
+The third part of the page displays information regarding the Contacts. It allows user to update or submit contact deletion request.
 
 It displays a Contact table with seven columns.
 
@@ -52,3 +52,6 @@ The fifth column is Work Phone. It can be modified.
 The sixth column is Mobile. It can be modified.
 
 The seventh column is a Checkbox Is Coordinator. It can be modified.
+
+:warning:**_NOTE:_**  
+Keep in mind that delete contact request needs to be approved by the Nodefusion administration and is NOT applied immediately.
