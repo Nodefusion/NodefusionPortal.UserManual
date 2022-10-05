@@ -18,4 +18,4 @@ The second part of the page shows a form with two text fields. One for Organizat
 
 ### Activate token
 
-Activate token is the third part of the page. It contains a form with one text area field that expects an access token the user received from the email when requesting access to an organization. The request was sent from the Organization Access Request from that is part of this page. After writing the access token inside the text area and activating it. The user will need to log out and log in again so that the Organization will be shown in the organization list at the top of the page after logging in for the second time. 
+Activate token is the third part of the page. It contains a form with one text area field that expects an access token the user received from the email when requesting access to an organization. After activation of the given token, a user will need to log out and log in again so that the Organization will be shown in the organization list at the top of the page. 
