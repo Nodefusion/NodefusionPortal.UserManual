@@ -2,21 +2,17 @@
 
 The domains page shows information regarding user domains.
 
-It has two functionalities: creating new domains and showing domains in an organization.
+It has two functionalities, creating a new Domain and showing domains in the organization.
 
 
-### Part One
+### Creating a new Domain
 
-The first part is a form. 
-The form contains only one field: Domain Name.
-After pressing the Create New button, a new domain with the given name will be created.
+Creating a new Domain form contains only one field: Domain Name.
+After setting the new domain name field, the Create new domain button will be enabled.
 
 
-### Part Two
+### Show existing Domains
 
-The second part is a table of user domains.
-The table has two columns.
-
-The first column is Domain Name.
-
-The second column End Date.
+The table has two columns:
+  - Domain Name
+  - End Date
