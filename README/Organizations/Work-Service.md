@@ -15,14 +15,9 @@ The information displayed is:
   - Hours used
 
 
-### Part Two
+### Work Report History
 
-The second part shows a table of work reports for every month you were using Nodefusion services up to the current month. The current month's work report will be available after the end of the month.
-
-The work report table has three columns.
-
-The first column is File Name. It is a link that will download a pdf file showing the monthly work report.
-
-The second field is Billing Period Name. It shows the period of the work report. Period consists of year and month.
-
-The third field is Timestamp.
+The Work Report History is displayed as a table with the following columns:
+  - File Name, a link to a pdf file for the Work Report
+  - Billing Period Name, shows the period of the work report
+  - Timestamp
