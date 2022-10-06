@@ -2,7 +2,7 @@
 
 The domains page shows information regarding user domains.
 
-It has two functionalities, creating a new Domain and showing domains in the organization.
+It has two functionalities, creating a new Domain and showing existing domains in the organization.
 
 
 ### Creating a new Domain
