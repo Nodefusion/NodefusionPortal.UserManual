@@ -2,19 +2,22 @@
 
 
 The page Work Service shows information regarding user Work Services.
-It consists of two parts.
+It has two functionalities, showing the Estimated Work Service Hours for the current month and showing the Work Report history.
 
 
 
-### Part One
+### Estimate Work Service Hours
 
-The first part shows the Estimate Work Service Hours for the current Month. It shows the hours included in the monthly price and shows the hours spent this month.
-The period starts on the first of every month and ends on the 30th or the 31st of every month (28th or 29th for February).
+The Estimate of Work Service Hours for the current Month.
+The information displayed is:
+  - Period (beginning and end of current month)
+  - Hours included
+  - Hours used
 
 
 ### Part Two
 
-The second part shows a table of work reports for every month you were using Nodefusion services up to the current month. The current month work report will be available after the end of the month.
+The second part shows a table of work reports for every month you were using Nodefusion services up to the current month. The current month's work report will be available after the end of the month.
 
 The work report table has three columns.
 
