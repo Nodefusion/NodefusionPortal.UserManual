@@ -6,7 +6,7 @@ Users can see information regarding organization permissions and event request p
 
 The Permissions table shows organization permission and the users those permissions are assigned to.
 The table columns are:
-  - checkbox(used for selecting one or more rows=
+  - Checkbox (used for selecting one or more rows)
   - Display Name
   - Permission
 
