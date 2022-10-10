@@ -8,7 +8,14 @@ The Case Edit page displays additional information regarding the Case.
 There are 9 fields inside the Case Edit page showing various info about the case.
 
 The status field have several values that user can choose from. It is one of two fields that can be changed on the Case edit page.
-The options you can choose from are: In Progress, On Hold, Waiting for Details, Problem Solved, Information Provided, Canceled and Merged.
+The options you can choose from are: 
+ - In Progress
+ - On Hold
+ - Waiting for Details
+ - Problem Solved
+ - Information Provided
+ - Canceled
+ - Merged
 
 New Comment is the second field that can be edited inside the Case edit page.
 
