@@ -14,4 +14,4 @@ The Grant Permission button redirects the user to the Grant Permission page.
 The Delete button deletes the selected permissions in table. 
 
 :warning:**_NOTE:_**  
-Keep in mind that Delete permission requires the affected users to refresh the access token (or make log out - log in).
+Keep in mind that Delete permission action requires the affected users to refresh the access token (or make log out - log in).
