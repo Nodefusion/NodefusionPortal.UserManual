@@ -1,17 +1,17 @@
 ## Work Service
 
 
-The page Work Service shows information regarding user Work Services.
+The page Work Service shows information regarding customer's Work Services.
 It has two functionalities, showing the Estimated Work Service Hours for the current month and showing the Work Report history.
 
 
 
 ### Estimate Work Service Hours
 
-The Estimate of Work Service Hours for the current Month.
+The Estimate of Work Service Hours for the current billing period.
 The information displayed is:
-  - Period (beginning and end of current month)
-  - Hours included
+  - Period (beginning and end of current billing period)
+  - Hours included in subscription
   - Hours used
 
 
