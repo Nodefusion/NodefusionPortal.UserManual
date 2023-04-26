@@ -5,7 +5,8 @@ MS Subscriptions works with Microsoft Subscriptions and Microsoft Cloud Tenants.
 It has four pages. One displays existing MS Subscriptions, another allows users to create Microsoft Cloud Tenant, the third allows editing an existing NCE MS Subscription and the last allows creating new MS Subscriptions.
 
 :warning:**_NOTE:_**  
-_Keep in mind that loading these pages can take some time due to possible numerous queries accessing Microsoft Partner specific APIs. _
+
+Keep in mind that loading these pages can take some time due to numerous possible queries accessing Microsoft Partner specific APIs.
 
 ## MS Subscriptions
 
