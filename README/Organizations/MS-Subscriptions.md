@@ -2,14 +2,14 @@
 
 MS Subscriptions works with Microsoft Subscriptions and Microsoft Cloud Tenants.
 
-It has two pages. One works with MS Subscriptions, and another allows users to create Microsoft Cloud Tenant.
+It has four pages. One displays existing MS Subscriptions, another allows users to create Microsoft Cloud Tenant, the third allows editing an existing NCE MS Subscription and the last allows creating new MS Subscriptions.
 
 :warning:**_NOTE:_**  
-_Keep in mind that loading these pages can take some time due to possible numerous queries accessing Microsoft Partner specific APIs._
+_Keep in mind that loading these pages can take some time due to possible numerous queries accessing Microsoft Partner specific APIs. _
 
 ## MS Subscriptions
 
-The MS Subscription page works with Microsoft Subscriptions and has a button at the top to create additional Microsoft Cloud Tenants.
+The MS Subscription page displays existing Microsoft Subscriptions that belong to the user and has a button at the top to create additional Microsoft Cloud Tenants.
 Below the button is the information about Microsoft Subscriptions that belong to the user.
 
 The information about subscriptions is divided by Microsoft Tenant. (if there are multiple tenants tied to your organization)
@@ -23,7 +23,7 @@ The first part gives information regarding Microsoft Customer Agreement. Every u
 When the agreement is not accepted to the user, a dialog screen will be displayed that will block the page until the customer agreement is accepted.
 
 The dialog button will contain a form with five fields.
-All the fiels are required and has to be filled.
+All the fields are required and must be filled.
 First Name, Last Name, Phone, Email and Agreement Date.
 Agreement date field cannot be set to a future date.
 
@@ -31,41 +31,47 @@ When all fields are set, the user can press the Save button and save the agreeme
 The MS Subscription page will then be enabled, and the dialog screen will disappear.
 Instead of the dialog screen, the user will see who gave the agreement in his organization and when it was agreed.
 
-### License Subscriptions
+### Create Subscription
 
-The second part gives information regarding License Subscriptions.
-The user can create a new License Subscriptions with the help of a form.
+The second part consists of a single button "New Subscription" that opens a new page where the user can request new MS Subscriptions.
 
-The form has five fields: 
-- Online service offer. The field has a list of offers where the user can choose one offer from the ones listed
-- Subscriptions. Field and is dependent on the first field. The user must choose an offer before he can choose a subscription from a list of subscriptions.
-- Term. It is dependent on Subscription. The term describes the duration of the subscription.
-- Billing Frequency. It is dependent on the Term field. It describes in which frequency will the Subscription be paid for.
-- Quantity. The number of subscriptions the user wants to create.
+### MS Subscription Information
 
-Below the new subscription form is the Existing License Subscription table.
-It consists of six columns:
-- Select. Checkbox which allows the user to select one or more subscriptions for modification.
-- Name
-- Offer
-- Auto Renewal
-- Status
-- Quantity. The user can modify the cell value and save the modification with the help of the Save button at the top of the table.
+The third part gives information regarding MS Subscriptions.
 
-### Azure Plan
+It consists of four tabs. Each tab shows information for different MS Subscription types that belong to the user.
 
-This part gives you the status regarding Azure Plan.
-It shows if the Azure Plan is Active.
+#### Azure
 
-### Microsoft Entitlements
+The Azure tab currently does not show information about Azure subscriptions that belong to the user.
 
-The fourth part gives information regarding the Entitlement Subscriptions.
-Users can create an entitlement subscription with the help of a form.
+#### Marketplace
 
-The form consists of two fields:
-- Product. The product field gives the user multiple options from which the user can choose one.
-- Quantity. Users can decide how many entitlements they want to create.
+The Marketplace tab currently does not show information about marketplace subscriptions that belong to the user.
 
-Below the entitlement licence create form is a table of existing entitlements: 
-- Name
-- Quantity
+#### Online Services
+
+The Online Service tab shows MS Subscriptions that are of Billing Type License.
+
+The tab has two parts.
+The first part is the search text field that can search MS Subscriptions inside the DataGrid checking the values of the Friendly Name property.
+The second part is The MS Subscription DataGrid that has seven columns. The DataGrid allows editing properties inside rows. DataGrid has pagination enabled and shows 10 rows per page.
+
+The first column is Friendly Name. This property cannot be edited inside DataGrid. It contains a link if the MS Subscription has additional editing options and will redirect the user to another page where he can make further changes to the MS Subscription.
+The second column is Offer Name. The property cannot be edited.
+The third column is Auto Renewal. The column uses a Checkbox component that the user can edit.
+The fourth column is Status. The property cannot be edited.
+The fifth column is Quantity. This property can be edited.
+The sixth column is Billing Cycle. The property cannot be edited.
+The seventh column is Action. It contains the Update button that will save the changes the user makes inside the row.
+
+#### Software
+
+The Software tab shows MS Subscriptions that are Entitlements.
+
+The tab has two parts.
+The first part is the search text field that can search MS Subscriptions inside the DataGrid checking the values of the Friendly Name property.
+The second part is The MS Subscription DataGrid that has two columns. DataGrid has pagination enabled and shows 10 rows per page.
+
+The first column is Friendly Name. The property cannot be edited.
+The second column is Quantity. The property cannot be edited.
