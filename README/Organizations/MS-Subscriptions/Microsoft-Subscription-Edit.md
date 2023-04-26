@@ -8,6 +8,6 @@ The form has six fields:
 - Status.
 - Term Duration.
 - Enable Auto Renewal.
-- Enable Manage Renewal. When this option is enabled, the form displays two additional fields for editing that take effect upon subscription renewal date.
+- Enable Manage Renewal. When this option is enabled, the form displays two additional fields for editing that take effect upon subscription renewal date:
   - Quantity Change to.
   - Term Change to.
