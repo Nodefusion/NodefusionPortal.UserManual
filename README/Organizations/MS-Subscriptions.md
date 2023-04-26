@@ -55,15 +55,16 @@ The Online Service tab shows MS Subscriptions that are of Billing Type License.
 
 The tab has two parts.
 The first part is the search text field that can search MS Subscriptions inside the DataGrid checking the values of the Friendly Name property.
-The second part is The MS Subscription DataGrid that has seven columns. The DataGrid allows editing properties inside rows. DataGrid has pagination enabled and shows 10 rows per page.
+The second part is The MS Subscription DataGrid. The DataGrid allows editing properties inside rows. DataGrid has pagination enabled and shows 10 rows per page.
 
-The first column is Friendly Name. This property cannot be edited inside DataGrid. It contains a link if the MS Subscription has additional editing options and will redirect the user to another page where he can make further changes to the MS Subscription.
-The second column is Offer Name. The property cannot be edited.
-The third column is Auto Renewal. The column uses a Checkbox component that the user can edit.
-The fourth column is Status. The property cannot be edited.
-The fifth column is Quantity. This property can be edited.
-The sixth column is Billing Cycle. The property cannot be edited.
-The seventh column is Action. It contains the Update button that will save the changes the user makes inside the row.
+DataGrid has seven columns:
+- Friendly Name - This property cannot be edited inside DataGrid. It contains a link if the MS Subscription has additional editing options and will redirect the user to another page where he can make further changes to the MS Subscription.
+- Offer Name - The property cannot be edited.
+- Auto Renewal - The column uses a Checkbox component that the user can edit.
+- Status - The property cannot be edited.
+- Quantity - This property can be edited.
+- Billing Cycle - The property cannot be edited.
+- Action - It contains the Update button that will save the changes the user makes inside the row.
 
 #### Software
 
@@ -71,7 +72,8 @@ The Software tab shows MS Subscriptions that are Entitlements.
 
 The tab has two parts.
 The first part is the search text field that can search MS Subscriptions inside the DataGrid checking the values of the Friendly Name property.
-The second part is The MS Subscription DataGrid that has two columns. DataGrid has pagination enabled and shows 10 rows per page.
+The second part is The MS Subscription DataGrid. DataGrid has pagination enabled and shows 10 rows per page.
 
-The first column is Friendly Name. The property cannot be edited.
-The second column is Quantity. The property cannot be edited.
+DataGrid has two columns:
+- Friendly Name
+- Quantity
