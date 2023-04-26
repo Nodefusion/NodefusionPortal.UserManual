@@ -4,10 +4,14 @@ In the Microsoft Subscription page contains a form where the user can edit addit
 
 The form has six fields:
 - Subscription nickname.
-- Quantity.
-- Status.
+- Quantity (Note: in Microsoft New Commerce Experience, you can only increase the quantity)
+- Status
 - Term Duration.
 - Enable Auto Renewal.
-- Enable Manage Renewal. When this option is enabled, the form displays two additional fields for editing that take effect upon subscription renewal date:
+- Enable Manage Renewal - When this option is enabled, the form displays two additional fields for editing that take effect upon subscription renewal date:
   - Quantity Change to.
   - Term Change to.
+
+### Example scenario1
+
+You have current 20 licenses of Microsoft 365 subscription in New Commerce experience on Monthly term, and you want to decrease in next term to 15 licenses. In Nodefusion Portal, you should configure enable manage renewal with quantity change to 15.
