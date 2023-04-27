@@ -10,7 +10,6 @@ The table columns are:
   - Display Name
   - Permission
 
-The Grant Permission button redirects the user to the Grant Permission page.
 The Delete button deletes the selected permissions in table. 
 
 :warning:**_NOTE:_**  
