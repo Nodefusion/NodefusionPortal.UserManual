@@ -1,6 +1,6 @@
 ## Permissions
 
-Users can see information regarding organization permissions and request permissions to organization for other users.
+Users can see information regarding organization permissions and request permissions to access the organization for other users.
 
 ## Permission List
 
