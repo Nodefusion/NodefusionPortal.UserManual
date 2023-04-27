@@ -1,6 +1,6 @@
 ## Roadmaps
 
-Service Roadmaps pages give information about Service Roadmaps.
+Service Roadmaps pages give information about Roadmaps.
 
 ## Roadmap List
 
