@@ -1,6 +1,6 @@
 ## Permissions
 
-Users can see information regarding organization permissions and request permissions to access the organization for other users.
+Users can see information regarding organization permissions and manage permissions for other users in the organization.
 
 ## Permission List
 
@@ -13,7 +13,7 @@ The table columns are:
 The Delete button deletes the selected permissions in table. 
 
 :warning:**_NOTE:_**  
-Keep in mind that Delete permission action requires the affected users to refresh the access token (or make log out - log in).
+_Keep in mind that Delete permission action requires the affected users to refresh the access token (log out - log in)._
 
 ## Grant Permission
 The Grant Permission form allows a user to request additional permission for himself or another user inside the organization. The request form consists of three fields:
@@ -24,4 +24,4 @@ Invitation Email (user who will receive permission)
 The button Grant Permission is disabled until the user fills in all fields. The user will receive an email with the activation token needed on the Organization Select page.
 
 :warning:**_NOTE:_**  
-Keep in mind that the Invitation email field must be the one which user is (or will be) registered on Nodefusion Portal with. Upon permission activation, it will be checked if the token is generated for the correct user.
+_Keep in mind that the Invitation email field must be the one which user is (or will be) registered on Nodefusion Portal with. Upon permission activation, it will be checked if the token is generated for the correct user._
