@@ -1,7 +1,7 @@
 ## Microsoft Subscription Create
 
 :warning:**_NOTE:_**  
-_Keep in mind that loading these pages can take some time due to possible numerous queries accessing Microsoft Partner specific APIs. _
+_Please note that loading these pages may take some time due to various queries accessing Microsoft Partner-specific APIs._
 
 The page contains three tabs each showing different types of MS Subscriptions the user can request to be created.
 
