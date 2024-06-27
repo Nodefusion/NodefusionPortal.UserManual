@@ -5,7 +5,16 @@ That will open the Case Edit page.
 
 The Case Edit page displays additional information regarding the Case.
 
-There are 9 fields inside the Case Edit page showing various info about the case.
+There are 9 fields inside the Case Edit page showing various info about the case:
+- Case number that displays case number
+- Contact 
+- Status
+- Created On displays date and time when the case was created
+- Case Name displays name of the case
+- Description displays description that user wrote about the case
+- New Comment displays textbox where user can add new comments for the case
+- Priority displays priority of the case (important, urgent, critical)
+- Support Level displays level of support for the case (Level 1 - Level 4)
 
 The status field have several values that user can choose from. It is one of two fields that can be changed on the Case edit page.
 The options you can choose from are: 
