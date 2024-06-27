@@ -34,6 +34,6 @@ It can also contain some specific categories if your organization's work service
 
 On the top of the create Case we have two buttons. 
 
-The Save button is disabled until the user fills in the values in all the required fields. When you press save, a new case will be created based on the values you set inside the fields.
+After user fills in all fields, he can use the save button. If user did not fill in all fields, user will be shown error on what he needs to fill or change. When you press save, a new case will be created based on the values you set inside the fields.
 
 The TeamViewer button will download a TeamViewer QuickSupport app that will allow a Nodefusion Support agent to connect to the user's computer and help regarding the case.
