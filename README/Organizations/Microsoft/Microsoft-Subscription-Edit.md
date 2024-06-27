@@ -6,7 +6,9 @@ The form has six fields:
 - Subscription nickname.
 - Quantity (Note: in Microsoft New Commerce Experience, you can only increase the quantity)
 - Status
-- Term Duration.
+- Term Duration
+- Term end date
+- Billing cycle
 - Auto Renewal - you can disable Auto Renewal if enabled.
 - Enable Manage Renewal - When this option is enabled, the form displays two additional fields for editing that take effect upon subscription renewal date:
   - Quantity Change to.
