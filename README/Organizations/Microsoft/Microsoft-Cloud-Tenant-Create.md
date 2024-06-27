@@ -3,11 +3,11 @@
 The Microsoft Cloud Tenant Create page allows the user to create a new Cloud Tenant.
 The forms contain fourteen fields:
 - Company Name
-- Adress Line
+- Address Line
 - City
 - State
 - Postal Code
-- Domain
+- Domain - User fills in subdomain information that ends with .onmicrosoft.com
 - Country
 - Culture
 - Language
@@ -15,10 +15,6 @@ The forms contain fourteen fields:
 - Last Name
 - Email
 - Phone Number
-- Business Unit. It has two options for users to choose from: 
-  - Nodefusion-HR
-  - Nodefusion-US
+- Region - Automatically selected Europe/US by selected country
 
-After the user creates the new Cloud Tenant by pressing the Create Tenant button, he can see the Cloud Tenant information by pressing the Show Tenant Information button.
-
-The Show Information button will display a dialog with Username and Password information.
+After the user creates the new Cloud Tenant by pressing the Create Tenant button, Information box will display Username and Password information for tenant account.
