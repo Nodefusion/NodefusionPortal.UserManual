@@ -1,6 +1,6 @@
 ## Case Edit
 
-When you have active cases, you can visit individual cases by clicking on the link in the first column, Case Title, of the table on the Case List page.
+When you have active cases, you can visit individual cases by clicking on the link in the first column, Case Name, of the table on the Case List page.
 That will open the Case Edit page.
 
 The Case Edit page displays additional information regarding the Case.
