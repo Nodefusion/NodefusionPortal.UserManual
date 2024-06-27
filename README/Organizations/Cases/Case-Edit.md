@@ -7,8 +7,8 @@ The Case Edit page displays additional information regarding the Case.
 
 There are 9 fields inside the Case Edit page showing various info about the case:
 - Case number that displays case number
-- Contact 
-- Status
+- Contact displays contact information for user who opened the case
+- Status displays current status of the case
 - Created On displays date and time when the case was created
 - Case Name displays name of the case
 - Description displays description that user wrote about the case
