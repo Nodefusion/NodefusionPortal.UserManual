@@ -14,5 +14,5 @@ After setting the new domain name field, the Create new domain button will be en
 ### Show existing Domains
 
 The table has two columns:
-  - Domain Name
   - End Date
+  - Domain Name
