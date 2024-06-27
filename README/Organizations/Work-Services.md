@@ -18,6 +18,8 @@ The information displayed is:
 ### Work Report History
 
 The Work Report History is displayed as a table with the following columns:
-  - File Name, a link to a pdf file for the Work Report
   - Billing Period Name, shows the period of the work report
   - Timestamp
+  - File Name, a link to a pdf file for the Work Report
+  
+  
