@@ -2,7 +2,7 @@
 
 Microsoft works with Microsoft Subscriptions and Microsoft Cloud Tenants.
 
-It has four pages. One displays existing Microsoft Subscriptions, another allows users to create Microsoft Cloud Tenant, the third allows editing an existing NCE Microsoft Subscription and the last allows creating new Microsoft Subscriptions.
+It has four pages. One displays existing Microsoft Tenants with Microsoft subscriptions, another allows users to create Microsoft Cloud Tenant, the third allows editing an existing NCE Microsoft Subscription and the last allows creating new Microsoft Subscriptions.
 
 :warning:**_NOTE:_**  
 
