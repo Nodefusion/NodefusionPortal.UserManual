@@ -1,6 +1,6 @@
-## MS Subscriptions
+## Microsoft
 
-MS Subscriptions works with Microsoft Subscriptions and Microsoft Cloud Tenants.
+Microsoft works with Microsoft Subscriptions and Microsoft Cloud Tenants.
 
 It has four pages. One displays existing MS Subscriptions, another allows users to create Microsoft Cloud Tenant, the third allows editing an existing NCE MS Subscription and the last allows creating new MS Subscriptions.
 
@@ -8,9 +8,9 @@ It has four pages. One displays existing MS Subscriptions, another allows users 
 
 Please note that loading these pages may take some time due to various queries accessing Microsoft Partner-specific APIs.
 
-## MS Subscriptions
+## Microsoft
 
-The MS Subscription page displays existing Microsoft Subscriptions per customer's tenant (if there are multiple tenants tied to your organization) and has a button at the top to create additional Microsoft Cloud Tenants.
+The Microsoft page displays existing Microsoft Subscriptions per customer's tenant (if there are multiple tenants tied to your organization) and has a button at the top to create additional Microsoft Cloud Tenants.
 Below the button, there is information about Microsoft subscriptions that belong to the user.
 
 Information regarding subscriptions inside the tenant can be divided into three sub-parts.
@@ -33,17 +33,17 @@ Instead of the dialog screen, the user will see who gave the agreement in his or
 
 ### Create Subscription
 
-The second part consists of a single button "New Subscription" that opens a new page where the user can request new MS Subscriptions.
+The second part consists of a single button "New Subscription" that opens a new page where the user can request new Microsoft Subscriptions.
 
 ### MS Subscription Information
 
-The third part gives information regarding MS Subscriptions.
+The third part gives information regarding Microsoft Subscriptions.
 
-There are four tabs, each displaying information on different types of MS subscriptions that belong to the user.
+There are four tabs, each displaying information on different types of Microsoft subscriptions that belong to the user.
 
 #### Azure
 
-The Azure tab currently does not display information about Azure subscriptions that belong to the user.
+The Azure tab currently does not display information about Azure subscriptions that belong to the user, only displays if customer has active Azure Plan.
 
 #### Marketplace
 
@@ -51,12 +51,12 @@ The Marketplace tab currently does not display information about marketplace sub
 
 #### Online Services
 
-The Online Services tab shows MS Subscriptions of the Billing Type License.
+The Online Services tab shows Microsoft Subscriptions of the Billing Type License.
 
-This tab consists of two parts. The first part is the search text field that can be used to search for MS Subscriptions inside the DataGrid by checking the values of the Friendly Name property. The second part is the MS Subscription DataGrid, which allows editing of properties inside rows. The DataGrid has pagination enabled and shows 10 rows per page.
+This tab consists of two parts. The first part is the search text field that can be used to search for Microsoft Subscriptions inside the DataGrid by checking the values of the Friendly Name property. The second part is the Microsoft Subscription DataGrid, which allows editing of properties inside rows. The DataGrid has pagination enabled and shows 10 rows per page.
 
 DataGrid has seven columns:
-- Friendly Name - This property cannot be edited. It contains a link if the MS Subscription has additional editing options and will redirect the user to another page where they can make further changes to the MS Subscription.
+- Friendly Name - This property cannot be edited. It contains a link if the Microsoft Subscription has additional editing options and will redirect the user to another page where they can make further changes to the Microsoft Subscription.
 - Offer Name - The property cannot be edited.
 - Auto Renewal - The column uses a Checkbox component that the user can edit.
 - Status - The property cannot be edited.
@@ -68,7 +68,7 @@ DataGrid has seven columns:
 
 The Software tab shows MS Subscriptions that are Entitlements.
 
-This tab consists of two parts. The first part is the search text field that can be used to search for MS Subscriptions inside the DataGrid by checking the values of the Friendly Name property. The second part is the MS Subscription DataGrid. The DataGrid has pagination enabled and shows 10 rows per page.
+This tab consists of two parts. The first part is the search text field that can be used to search for Microsoft Subscriptions inside the DataGrid by checking the values of the Friendly Name property. The second part is the Microsoft Subscription DataGrid. The DataGrid has pagination enabled and shows 10 rows per page.
 
 DataGrid has two columns:
 - Friendly Name
