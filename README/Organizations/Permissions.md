@@ -29,7 +29,7 @@ Expires on (read-only field, set to current date + 3 days)
 
 Invitation Email (user who will receive permission)
 
-The button Grant Permission is disabled until the user fills in all fields. The user will receive an email with the activation token needed on the Organization Select page.
+After user fills in all fields, he can use Grant Permission button. The user will receive an email with the activation token needed on the Organization Select page.
 
 
 :warning:**_NOTE:_**  
