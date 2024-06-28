@@ -1,4 +1,4 @@
-## Create Case
+## Case Create
 
 Case Create is a large form in which users fill in the information regarding the Case.
 
