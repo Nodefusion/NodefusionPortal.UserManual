@@ -6,7 +6,7 @@ Based on user's permissions, one can create a new case for his organization, he 
 ## Case List
 
 The page shows a table of active cases.
-The table has several columns: Case Name, Case Number, Contact, Created On, Priority, Support Level and Status.
+The table has several columns: Case Name, Case Number, Contact, Created On, Subject, Priority, Support Level and Status.
 
 Above the table there are two buttons, Create new case and TeamViewer.
 Create new case button opens a new page where the user can create a new case.
