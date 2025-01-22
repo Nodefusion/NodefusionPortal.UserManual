@@ -16,9 +16,9 @@ There are three levels of issues. The highest critical, next is urgent and the t
  - Preferred way of communication with Nodefusion Support. Available options are email or phone.
  - Consent for the calls regarding the case to be recorded. 
 
-### Category specific fields
+### Subject specific fields
 
-The number of fields in the category part can change depending on the chosen category.
+The number of fields in the subject category part can change depending on the chosen subject.
 
 When you choose a category, the form will display additional fields that will help you better define your case.
 
