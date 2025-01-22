@@ -18,9 +18,9 @@ There are three levels of issues. The highest critical, next is urgent and the t
 
 ### Subject specific fields
 
-The number of fields in the subject category part can change depending on the chosen subject.
+Each subject has its own sub form consisting of specific field based on chosen subject.
 
-When you choose a category, the form will display additional fields that will help you better define your case.
+When you choose a subject, the form will display additional fields that will help you better define your case.
 
 The category field has at least four values to choose from: 
  - General
