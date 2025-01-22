@@ -22,11 +22,47 @@ Each subject has its own sub form consisting of specific field based on chosen s
 
 When you choose a subject, the form will display additional fields that will help you better define your case.
 
-The category field has at least four values to choose from: 
+These are the available subject with their required field:
  - General
- - Create User Request
- - Deactivate User Request
- - User Credentials Reset Request
+ - Nodefusion > Aexum
+ - Nodefusion > Nodefusion Clou Backup
+ - Nodefusion > Customer
+ - User Management > User Group membership
+ - Endpoint Device > Device onboarding
+ - Endpoint Device > Device offboarding
+ - Endpoint Device > Windows
+ - Endpoint Device > IOS
+ - Endpoint Device > Android
+ - Endpoint Device > macOS
+ - Endpoint Device > Endpoint General
+ - Data > Data Migration
+ - Data > Data Recovery
+ - Software development
+ - IT consulting
+ - Devices > Printer
+ - Devices > Scanner
+ - Devices > Room System
+ - Devices > Storage
+ - Devices > Server
+ - Devices > General Device
+ - Microsoft Cloud Service > Exchange Online
+ - Microsoft Cloud Service > SharePoint Online
+ - Microsoft Cloud Service > Microsoft Teams
+ - Microsoft Cloud Service > Microsoft Entra
+ - Microsoft Cloud Service > Intune
+ - Microsoft Cloud Service > Azure
+ - Microsoft Cloud Service > Microsoft 365 General
+ - Network
+ - Windows Server
+ - User Management > User Group membership
+   - Title
+   - Description
+ - User Management > User onboarding
+   - Display Name
+   - Username
+ - User Management > User offboarding
+ - User Management > Credential reset
+   - Username
 
 It can also contain some specific categories if your organization's work service has them assigned.
 
