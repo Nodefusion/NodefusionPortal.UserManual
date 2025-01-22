@@ -5,7 +5,7 @@ That will open the Case Edit page.
 
 The Case Edit page displays additional information regarding the Case.
 
-There are 9 fields inside the Case Edit page showing various info about the case:
+There are 10 fields inside the Case Edit page showing various info about the case:
 - Case number that displays case number
 - Subject displays case category information
 - Contact displays contact information for user who opened the case
