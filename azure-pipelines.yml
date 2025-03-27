@@ -1,0 +1,38 @@
+trigger:
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  NODE_VERSION: '20.x'
+  BUILD_DIR: 'build'
+  DEPLOY_BRANCH: 'gh-pages'
+
+steps:
+- checkout: self
+  persistCredentials: true  # Enables access to repo via OAuth token
+
+- task: NodeTool@0
+  inputs:
+    versionSpec: '$(NODE_VERSION)'
+  displayName: 'Install Node.js'
+
+- script: |
+    npm install
+    npm run build
+  displayName: 'Build Docusaurus site'
+
+- script: |
+    git config --global user.name "azure-pipelines"
+    git config --global user.email "azure-pipelines@users.noreply.github.com"
+
+    git clone --branch $(DEPLOY_BRANCH) https://$(Build.Repository.Uri) out
+    rm -rf out/*
+    cp -r $(BUILD_DIR)/* out/
+
+    cd out
+    git add .
+    git commit -m "Deployed from Azure Pipelines: $(Build.BuildId)"
+    git push
+  displayName: 'Deploy to GitHub Pages'
