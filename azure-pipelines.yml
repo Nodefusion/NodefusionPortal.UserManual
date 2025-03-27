@@ -7,7 +7,7 @@ pool:
 variables:
   NODE_VERSION: '20.x'
   BUILD_DIR: 'build'
-  GIT_NAME: 'Nodefusion'
+  GIT_NAME: 'nodefusioncom'
   GIT_EMAIL: 'nodefusion@nodefusion.com'
 
 steps:
