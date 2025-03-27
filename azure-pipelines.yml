@@ -1,5 +1,5 @@
 trigger:
-  - main  # Or your default branch name
+  - main
 
 pool:
   vmImage: ubuntu-latest
@@ -11,7 +11,7 @@ variables:
 
 steps:
 - checkout: self
-  persistCredentials: true  # Enables use of System.AccessToken
+  persistCredentials: true  # Required for System.AccessToken
 
 # Install Node.js
 - task: NodeTool@0
@@ -19,7 +19,7 @@ steps:
     versionSpec: '$(NODE_VERSION)'
   displayName: 'Install Node.js'
 
-# Install dependencies and build the site
+# Build the Docusaurus site
 - script: |
     npm install
     npm run build
@@ -27,21 +27,24 @@ steps:
 
 # Deploy to GitHub Pages
 - script: |
-    echo "Configuring Git credentials"
+    echo "🔧 Configuring Git credentials"
     git config --global user.name "azure-pipelines"
     git config --global user.email "azure-pipelines@users.noreply.github.com"
 
-    echo "Cloning gh-pages branch with auth"
-    git clone --branch $(DEPLOY_BRANCH) https://$(System.AccessToken)@github.com/$(Build.Repository.Name).git out
+    echo "🌐 Cloning the gh-pages branch"
+    git clone --branch $(DEPLOY_BRANCH) https://$(System.AccessToken)@github.com/$(Build.Repository.Name) out
 
-    echo "Replacing content with built site"
+    echo "♻️  Replacing contents"
     rm -rf out/*
     cp -r $(BUILD_DIR)/* out/
 
     cd out
     git add .
-    git commit -m "Deployed from Azure Pipelines: $(Build.BuildId)"
-    git push https://$(System.AccessToken)@github.com/$(Build.Repository.Name).git $(DEPLOY_BRANCH)
+    git commit -m "Deployed from Azure Pipelines: $(Build.BuildId)" || echo "Nothing to commit"
+    
+    echo "🚀 Pushing to gh-pages branch"
+    git remote set-url origin https://$(System.AccessToken)@github.com/$(Build.Repository.Name)
+    git push origin $(DEPLOY_BRANCH)
   displayName: 'Deploy to GitHub Pages'
   env:
     System.AccessToken: $(System.AccessToken)
