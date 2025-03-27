@@ -9,13 +9,34 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+variables:
+  # Node.js version
+  NODE_VERSION: '20.x'
+  BUILD_DIR: 'build'
+  DEPLOY_BRANCH: 'gh-pages'
+  GIT_USER: 'Azure Pipeline'
+  GIT_EMAIL: 'nodefusion@nodefusion.com'
+
 steps:
+- checkout: self
+  persistCredentials: true
+
 - task: NodeTool@0
   inputs:
-    versionSpec: '20.x'
+    versionSpec: '$(NODE_VERSION)'
   displayName: 'Install Node.js'
 
-- script: |
+  -script: |
+    git config --global user.name "${GH_NAME}"
+    git config --global user.email "${GH_EMAIL}"
+
+    git checkout -b main 
+
     npm install
     npm run build
-  displayName: 'npm install and build'
+    
+    git commit -m "Deploy from Azure Pipeline: $(Build.BuildId)"
+    git push
+  displayName: 'Deploy to GitHub Pages'
+  env:
+    GH_TOKEN: $(GH_TOKEN)
