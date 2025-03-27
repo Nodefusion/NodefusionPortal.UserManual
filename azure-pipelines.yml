@@ -27,7 +27,7 @@ steps:
     git config --global user.email "${GIT_EMAIL}"  
 
     echo "🌐 Cloning the main branch"
-    git checkout --branch main
+    git checkout -b main
 
     echo "machine github.com login azure-pipelines password $(System.AccessToken)" > ~/.netrc
     
