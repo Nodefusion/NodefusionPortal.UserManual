@@ -29,7 +29,7 @@ steps:
     echo "🌐 Cloning the main branch"
     git checkout -b main
 
-    echo "machine github.com login azure-pipelines password $(System.AccessToken)" > ~/.netrc
+    echo "machine github.com login ${GH_NAME} password $(System.AccessToken)" > ~/.netrc
     
     echo "🚀 Installing and pushing to gh-pages branch"
     yarn install
