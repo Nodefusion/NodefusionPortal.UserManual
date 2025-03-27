@@ -1,5 +1,5 @@
 trigger:
-- main
+  - main  # Or your default branch name
 
 pool:
   vmImage: ubuntu-latest
@@ -11,28 +11,37 @@ variables:
 
 steps:
 - checkout: self
-  persistCredentials: true  # Enables access to repo via OAuth token
+  persistCredentials: true  # Enables use of System.AccessToken
 
+# Install Node.js
 - task: NodeTool@0
   inputs:
     versionSpec: '$(NODE_VERSION)'
   displayName: 'Install Node.js'
 
+# Install dependencies and build the site
 - script: |
     npm install
     npm run build
   displayName: 'Build Docusaurus site'
 
+# Deploy to GitHub Pages
 - script: |
+    echo "Configuring Git credentials"
     git config --global user.name "azure-pipelines"
     git config --global user.email "azure-pipelines@users.noreply.github.com"
 
-    git clone --branch $(DEPLOY_BRANCH) $(Build.Repository.Uri) out
+    echo "Cloning gh-pages branch with auth"
+    git clone --branch $(DEPLOY_BRANCH) https://$(System.AccessToken)@github.com/$(Build.Repository.Name).git out
+
+    echo "Replacing content with built site"
     rm -rf out/*
     cp -r $(BUILD_DIR)/* out/
 
     cd out
     git add .
     git commit -m "Deployed from Azure Pipelines: $(Build.BuildId)"
-    git push
+    git push https://$(System.AccessToken)@github.com/$(Build.Repository.Name).git $(DEPLOY_BRANCH)
   displayName: 'Deploy to GitHub Pages'
+  env:
+    System.AccessToken: $(System.AccessToken)
