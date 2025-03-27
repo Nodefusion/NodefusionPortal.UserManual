@@ -7,8 +7,8 @@ pool:
 variables:
   NODE_VERSION: '20.x'
   BUILD_DIR: 'build'
-  GIT_NAME: 'azure-pipelines'
-  GIT_EMAIL: 'azure-pipelines@users.noreply.github.com'
+  GIT_NAME: 'Nodefusion'
+  GIT_EMAIL: 'nodefusion@nodefusion.com'
 
 steps:
 - checkout: self
