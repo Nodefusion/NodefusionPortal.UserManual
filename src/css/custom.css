@@ -4,6 +4,8 @@
  * work well for content-centric websites.
  */
 
+ /* TODO: Review color themes, current ones have bad contrast */
+
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #d37352;
@@ -26,4 +28,8 @@
   --ifm-color-primary-lightest: #e5ac98;
 }
 
-/* TODO: Review color themes, current ones have bad contrast */
+.navbar__logo {
+  flex: 0 0 auto;
+  height: 2rem;
+  margin-right: 1.5rem;
+}
