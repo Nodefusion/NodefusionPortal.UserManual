@@ -27,7 +27,7 @@ steps:
     git config --global user.name "azure-pipelines"
     git config --global user.email "azure-pipelines@users.noreply.github.com"
 
-    git clone --branch $(DEPLOY_BRANCH) https://$(Build.Repository.Uri) out
+    git clone --branch $(DEPLOY_BRANCH) $(Build.Repository.Uri) out
     rm -rf out/*
     cp -r $(BUILD_DIR)/* out/
 
