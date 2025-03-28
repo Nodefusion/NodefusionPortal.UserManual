@@ -23,9 +23,10 @@ steps:
 # Deploy to GitHub Pages
 - script: |
     echo "🔧 Configuring Git credentials"
-    git config --global --add url."git@github.com:".insteadOf "https://github.com/"
     git config --global user.name "${GIT_NAME}"
     git config --global user.email "${GIT_EMAIL}"  
+    git config --get-all http.https://github.com/Nodefusion/NodefusionPortal.UserManual.extraheader
+    echo "Repo url with cred $(ReopoUrlWithCred)"
 
     echo "🌐 Cloning the main branch"
     git checkout -b main
