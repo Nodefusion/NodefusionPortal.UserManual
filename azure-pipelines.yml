@@ -25,19 +25,11 @@ steps:
     echo "🔧 Configuring Git credentials"
     git config --global user.name "${GIT_NAME}"
     git config --global user.email "${GIT_EMAIL}"  
-    git config --get-all http.https://github.com/Nodefusion/NodefusionPortal.UserManual.extraheader
-    echo "Repo url with cred $(repoUrlWithCred)"
-
-    git checkout -b main
- 
-    git commit --allow-empty -m "Empty commit for demonstration"
-    git push origin main
-    displayName: 'Push changes using pipeline credential
 
     echo "🌐 Cloning the main branch"
     git checkout -b main
 
-    echo "machine github.com login ${GH_NAME} password ${SYSTEM_ACCESSTOKEN}" > ~/.netrc
+    echo "machine github.com login ${GIT_NAME} password ${GH_TOKEN}" > ~/.netrc
     cat ~/.netrc
     
     echo "🚀 Installing and pushing to gh-pages branch"
@@ -45,5 +37,4 @@ steps:
     GIT_USER="${GIT_NAME}" yarn deploy
   displayName: 'Install build and deploy to GitHub Pages'
   env:
-    SYSTEM_ACCESSTOKEN: $(System.AccessToken)
-    REPOURL_WITH_CRED: $(ReopoUrlWithCred)
+    GH_TOKEN: $(GH_TOKEN_TEMP)
