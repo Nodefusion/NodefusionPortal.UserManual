@@ -26,12 +26,12 @@ steps:
     git config --global --add url."git@github.com:".insteadOf "https://github.com/"
     git config --global user.name "${GIT_NAME}"
     git config --global user.email "${GIT_EMAIL}"  
-    echo "Access Token: ${SYSTEM_ACCESSTOKEN}"
 
     echo "🌐 Cloning the main branch"
     git checkout -b main
 
     echo "machine github.com login ${GH_NAME} password ${SYSTEM_ACCESSTOKEN}" > ~/.netrc
+    cat ~/.netrc
     
     echo "🚀 Installing and pushing to gh-pages branch"
     yarn install
