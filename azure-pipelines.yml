@@ -28,6 +28,12 @@ steps:
     git config --get-all http.https://github.com/Nodefusion/NodefusionPortal.UserManual.extraheader
     echo "Repo url with cred $(repoUrlWithCred)"
 
+    git checkout -b main
+ 
+    git commit --allow-empty -m "Empty commit for demonstration"
+    git push origin main
+    displayName: 'Push changes using pipeline credential
+
     echo "🌐 Cloning the main branch"
     git checkout -b main
 
@@ -40,4 +46,4 @@ steps:
   displayName: 'Install build and deploy to GitHub Pages'
   env:
     SYSTEM_ACCESSTOKEN: $(System.AccessToken)
-    REPOURL_WITH_CRED: $(repoUrlWithCred)
+    REPOURL_WITH_CRED: $(ReopoUrlWithCred)
