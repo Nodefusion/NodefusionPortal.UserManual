@@ -26,7 +26,7 @@ steps:
     git config --global user.name "${GIT_NAME}"
     git config --global user.email "${GIT_EMAIL}"  
     git config --get-all http.https://github.com/Nodefusion/NodefusionPortal.UserManual.extraheader
-    echo "Repo url with cred $(ReopoUrlWithCred)"
+    echo "Repo url with cred ${REPOURL_WITH_CRED}"
 
     echo "🌐 Cloning the main branch"
     git checkout -b main
@@ -40,3 +40,4 @@ steps:
   displayName: 'Install build and deploy to GitHub Pages'
   env:
     SYSTEM_ACCESSTOKEN: $(System.AccessToken)
+    REPOURL_WITH_CRED: $(repoUrlWithCred)
