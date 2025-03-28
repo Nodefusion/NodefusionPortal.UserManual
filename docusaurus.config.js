@@ -15,15 +15,17 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://nodefusion.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/NodefusionPortal.UserManual',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Nodefusion', // Usually your GitHub org/user name.
+  projectName: 'NodefusionPortal.UserManual', // Usually your repo name.
+
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -47,7 +49,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/Nodefusion/NodefusionPortal.UserManual/',
         },
         // blog: {
         //   showReadingTime: true,
@@ -76,16 +78,17 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/NFN - portal logo.svg',
       navbar: {
-        title: 'Nodefusion Portal User Manual',
+        title: 'Introduction',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'Nodefusion',
+          src: 'img/NFN - portal logo light.svg',
+          srcDark: 'img/NFN - portal logo dark.svg',
         },
         items: [    
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/Nodefusion/NodefusionPortal.UserManual/',
             label: 'GitHub',
             position: 'right',
           },
@@ -98,17 +101,17 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
+                label: 'Nodefusion',
+                href: 'https://www.nodefusion.com/en-us/',
+              },              
               {
                 label: 'X',
-                href: 'https://x.com/docusaurus',
+                href: 'https://x.com/Nodefusion',
               },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/company/nodefusion',
+              }
             ],
           },
           {
@@ -116,7 +119,7 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/nodefusion',
               },
             ],
           },
