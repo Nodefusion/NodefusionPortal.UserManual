@@ -1,7 +1,8 @@
 ---
 sidebar_position: 4
-title: Shop
 ---
+
+# Shop
 
 Displays a grid of created shop items.
 

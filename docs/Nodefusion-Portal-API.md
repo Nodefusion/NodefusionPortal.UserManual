@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Power Automate Connector
+# Nodefusion Portal API
 
 ## Usage - Programmatic usage of Nodefusion Portal API
 

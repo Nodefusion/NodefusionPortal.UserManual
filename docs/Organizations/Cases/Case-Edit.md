@@ -23,7 +23,7 @@ There are 10 fields inside the Case Edit page showing various info about the cas
 - Support Level displays level of support for the case (Level 1 - Level 4)
 
 The status field have several values that user can choose from. It is one of two fields that can be changed on the Case edit page.
-The options you can choose from are: 
+The options you can choose from are:
 
 - In Progress
 - On Hold

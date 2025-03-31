@@ -1,7 +1,8 @@
 ---
 sidebar_position: 1
-title: Microsoft Subscription Create
 ---
+
+# Microsoft Subscription Create
 
 :::note
 Please note that loading these pages may take some time due to various queries accessing Microsoft Partner-specific APIs.
