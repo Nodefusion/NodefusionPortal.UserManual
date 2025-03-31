@@ -1,8 +1,7 @@
 ---
 sidebar_position: 1
+title: Microsoft Subscription Create
 ---
-
-## Microsoft Subscription Create
 
 :::note
 Please note that loading these pages may take some time due to various queries accessing Microsoft Partner-specific APIs.
@@ -10,7 +9,7 @@ Please note that loading these pages may take some time due to various queries a
 
 The page contains three tabs each showing different types of Microsoft Subscriptions the user can request to be created.
 
-### Online Services
+## Online Services
 
 The tab consists of two parts.
 The first part is a search textbox that searches Microsoft Subscriptions by their Name or Id.
@@ -26,7 +25,7 @@ DataGrid has five columns:
 - Action - It contains two buttons. The first button is Get Details that when clicked displayed the details for the specific product inside the same row.
 After the action is finished a new button is displayed. The Create button sends a request to create a new subscription for the user.
 
-### Perpetual Software
+## Perpetual Software
 
 The tab consists of two parts.
 The first part is a search textbox that searches Microsoft Subscriptions by their Name or Id.
@@ -41,7 +40,7 @@ DataGrid has four columns:
 - Action - It contains two buttons. The first button is Get Details that when clicked displays the details for the specific product inside the same row.
 After the action is finished a new button is displayed. The Create button sends a request to create a new subscription for the user.
 
-### Software Subscription
+## Software Subscription
 
 The tab consists of two parts.
 The first part is a search textbox that searches Microsoft Subscriptions by their Name or Id.

@@ -2,11 +2,11 @@
 sidebar_position: 8
 ---
 
-## Subscriptions
+# Subscriptions
 
 The Subscription page has two functionalities display list of Nodefusion subscriptions and list of other subscriptions.
 
-### Subscriptions List
+## Subscriptions List
 
 The Subscriptions table has six columns:
 
@@ -19,8 +19,9 @@ The Subscriptions table has six columns:
 
 :::note
 You have to select records you want to save prior to saving.
+:::
 
-### Other Subscriptions
+## Other Subscriptions
 
 The Other Subscriptions read-only table has six columns:
 

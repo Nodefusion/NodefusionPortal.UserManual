@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-## Case Edit
+# Case Edit
 
 When you have active cases, you can visit individual cases by clicking on the link in the first column, Case Name, of the table on the Case List page.
 That will open the Case Edit page.
@@ -10,6 +10,7 @@ That will open the Case Edit page.
 The Case Edit page displays additional information regarding the Case.
 
 There are 10 fields inside the Case Edit page showing various info about the case:
+
 - Case number that displays case number
 - Subject displays case category information
 - Contact displays contact information for user who opened the case
@@ -23,17 +24,18 @@ There are 10 fields inside the Case Edit page showing various info about the cas
 
 The status field have several values that user can choose from. It is one of two fields that can be changed on the Case edit page.
 The options you can choose from are: 
- - In Progress
- - On Hold
- - Waiting for Details
- - Problem Solved
- - Information Provided
- - Canceled
- - Merged
+
+- In Progress
+- On Hold
+- Waiting for Details
+- Problem Solved
+- Information Provided
+- Canceled
+- Merged
 
 New Comment is the second field that can be edited inside the Case edit page.
 
-### Action Buttons
+## Action Buttons
 
 The Save button will update the Status field if it was changed and will add a new comment inside the case if the user set a value inside the field.
 

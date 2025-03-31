@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 ---
-## Terms
+# Terms
 
 Before the application can be used the user needs to accept the terms and conditions.
 If the user has not accepted the terms in the application before he would be redirected to the Terms page.
