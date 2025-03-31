@@ -9,8 +9,8 @@ sidebar_position: 6
 It is possible to use Nodefusion Portal API.
 Actions and models are documented by Open API:
 
-- <https://app-nodefusionportal-webapi.azurewebsites.net/api/swagger.json>
-- <https://app-nodefusionportal-webapi-preview.azurewebsites.net/api/swagger.json>
+- [Production](https://app-nodefusionportal-webapi.azurewebsites.net/api/swagger.json)
+- [Preview](https://app-nodefusionportal-webapi-preview.azurewebsites.net/api/swagger.json)
 
 ## Authorization
 

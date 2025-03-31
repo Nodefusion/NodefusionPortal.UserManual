@@ -8,7 +8,7 @@ The Crohoster page has two functionalities, creating a new Crohoster and showing
 
 ## Create new Crohoster
 
-Create new Crohoster form has only one field named Plan which shows available plans for selection. List of plans is available here: <https://www.crohoster.com/>
+Create new Crohoster form has only one field named Plan which shows available plans for selection. List of plans is available here: https://www.crohoster.com/
 
 After the plan has been chosen by the user, Create new request can be used to create new plan.
 
