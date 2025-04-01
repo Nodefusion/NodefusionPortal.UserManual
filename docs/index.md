@@ -3,11 +3,11 @@ slug: /
 sidebar_position: 1
 ---
 
-# Introduction 
+# Introduction
 
 Nodefusion Portal - User Manual
 
-## Getting Sterted
+## Getting Started
 
 You can visit Nodefuson Portal at URL: https://portal.nodefusion.com
 

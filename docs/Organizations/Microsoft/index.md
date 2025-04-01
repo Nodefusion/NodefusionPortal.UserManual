@@ -1,17 +1,16 @@
 ---
 sidebar_position: 7
-title: Microsoft
 ---
 
-## Microsoft
+# Microsoft
 
 Microsoft works with Microsoft Subscriptions and Microsoft Cloud Tenants.
 
 It has four pages. One displays existing Microsoft Tenants with Microsoft subscriptions, another allows users to create Microsoft Cloud Tenant, the third allows editing an existing NCE Microsoft Subscription and the last allows creating new Microsoft Subscriptions.
 
-:warning:**_NOTE:_**  
-
+:::note
 Please note that loading these pages may take some time due to various queries accessing Microsoft Partner-specific APIs.
+:::
 
 ## Microsoft
 
@@ -61,6 +60,7 @@ The Online Services tab shows Microsoft Subscriptions of the Billing Type Licens
 This tab consists of two parts. The first part is the search text field that can be used to search for Microsoft Subscriptions inside the DataGrid by checking the values of the Friendly Name property. The second part is the Microsoft Subscription DataGrid, which allows editing of properties inside rows. The DataGrid has pagination enabled and shows 10 rows per page.
 
 DataGrid has seven columns:
+
 - Friendly Name - This property cannot be edited. It contains a link if the Microsoft Subscription has additional editing options and will redirect the user to another page where they can make further changes to the Microsoft Subscription.
 - Offer Name - The property cannot be edited.
 - Auto Renewal - The column uses a Checkbox component that the user can edit.
@@ -76,5 +76,6 @@ The Software tab shows MS Subscriptions that are Entitlements.
 This tab consists of two parts. The first part is the search text field that can be used to search for Microsoft Subscriptions inside the DataGrid by checking the values of the Friendly Name property. The second part is the Microsoft Subscription DataGrid. The DataGrid has pagination enabled and shows 10 rows per page.
 
 DataGrid has two columns:
+
 - Friendly Name
 - Quantity

@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-## Roadmaps
+# Roadmaps
 
 The roadmaps page gives you information about upcoming Roadmaps for your organization.
 
