@@ -2,11 +2,11 @@
 sidebar_position: 2
 ---
 
-## Organization Profile
+# Organization Profile
 
 Organization profile page has three parts.
 
-### Profile
+## Profile
 
 The first part displays information about the organization.
 
@@ -18,7 +18,7 @@ The third field is Address.
 
 The fourth field is VAT ID.
 
-### Billing Services
+## Billing Services
 
 This part displays Billing Service Information.
 
@@ -36,7 +36,7 @@ The fourth column is Bill To Email. This field can be modified.
 Keep in mind that this change needs to be approved by the Nodefusion administration and is NOT applied immediately.
 :::
 
-### Contacts
+## Contacts
 
 The third part of the page displays information regarding the Contacts. It allows user to update or submit contact deletion request.
 

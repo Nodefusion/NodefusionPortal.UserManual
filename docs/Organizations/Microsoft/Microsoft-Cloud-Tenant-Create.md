@@ -2,10 +2,11 @@
 sidebar_position: 1
 ---
 
-## Microsoft Cloud Tenant Create
+# Microsoft Cloud Tenant Create
 
 The Microsoft Cloud Tenant Create page allows the user to create a new Cloud Tenant.
 The forms contain fourteen fields:
+
 - Company Name
 - Address Line
 - City

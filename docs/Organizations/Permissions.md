@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-## Permissions
+# Permissions
 
 Users can see information regarding organization permissions and manage permissions for other users in the organization.
 

@@ -1,9 +1,8 @@
 ---
 sidebar_position: 7
-title: Microsoft
 ---
 
-## Microsoft
+# Microsoft
 
 Microsoft works with Microsoft Subscriptions and Microsoft Cloud Tenants.
 
