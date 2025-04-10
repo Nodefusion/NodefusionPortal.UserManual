@@ -131,6 +131,10 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+    future: {
+      // v4: true, // opt-in for Docusaurus v4 planned changes (needs newer than 3.7.0)
+      experimental_faster: true, // turns Docusaurus Faster on globally
+    },
 };
 
 export default config;
