@@ -49,7 +49,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/Nodefusion/NodefusionPortal.UserManual/',
+            'https://github.com/Nodefusion/NodefusionPortal.UserManual/tree/main/',
         },
         // blog: {
         //   showReadingTime: true,
