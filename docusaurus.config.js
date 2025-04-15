@@ -99,6 +99,9 @@ const config = {
         apiKey: 'ed555a45a36767f5ce11546f17933f2e',
         indexName: 'portal-manual-nodefusion',
       },
+      colorMode: {
+        respectPrefersColorScheme: true,
+      },
       footer: {
         style: 'dark',
         links: [
@@ -107,15 +110,19 @@ const config = {
             items: [
               {
                 label: 'Nodefusion',
-                href: 'https://www.nodefusion.com/en-us/',
+                href: 'https://www.nodefusion.com/',
               },              
               {
-                label: 'X',
-                href: 'https://x.com/Nodefusion',
+                label: 'Facebook',
+                href: 'https://www.facebook.com/Nodefusion',
               },
               {
                 label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/nodefusion',
+                href: 'https://www.linkedin.com/company/Nodefusion',
+              },
+              {
+                label: 'X',
+                href: 'https://x.com/Nodefusion',
               }
             ],
           },
@@ -123,13 +130,17 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'Nodefusion Portal',
+                href: 'https://portal.nodefusion.com/'
+              },
+              {
                 label: 'GitHub',
-                href: 'https://github.com/nodefusion',
+                href: 'https://github.com/Nodefusion'
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Nodefusion, Inc.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Nodefusion`,
       },
       prism: {
         theme: prismThemes.github,
