@@ -2,7 +2,7 @@
 
 ![Nodefusion](static/img/NFN%20-%20portal%20logo%20light.svg#gh-light-mode-only)![Nodefusion](static/img/NFN%20-%20portal%20logo%20dark.svg#gh-dark-mode-only)
 
-This is the repository for the Nodefusion Portal, using docusarus.
+This is the repository for the Nodefusion Portal manual, using docusarus.
 
 ## Building and running
 
