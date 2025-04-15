@@ -94,6 +94,11 @@ const config = {
           },
         ],
       },
+      algolia: {
+        appId: 'RWPBAW37JU',
+        apiKey: 'ed555a45a36767f5ce11546f17933f2e',
+        indexName: 'portal-manual-nodefusion',
+      },
       footer: {
         style: 'dark',
         links: [
