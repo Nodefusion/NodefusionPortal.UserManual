@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -83,13 +83,18 @@ const config = {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
         },
-        items: [    
+        items: [
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
             position: 'right',
           },
         ],
+      },
+      algolia: {
+        appId: 'RWPBAW37JU',
+        apiKey: 'ed555a45a36767f5ce11546f17933f2e',
+        indexName: 'portal-manual-nodefusion',
       },
       footer: {
         style: 'dark',
