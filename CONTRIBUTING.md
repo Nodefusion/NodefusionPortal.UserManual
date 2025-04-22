@@ -24,8 +24,6 @@ All types of contributions are encouraged and valued. See the [Table of Contents
   - [Commit Messages](#commit-messages)
 - [Join The Project Team](#join-the-project-team)
 
-
-
 ## I Have a Question
 
 > If you want to ask a question, we assume that you have read the available [Documentation](https://github.com/Nodefusion/NodefusionPortal.UserManual).
@@ -138,7 +136,9 @@ Updating, improving and correcting the documentation
 -->
 
 ## Styleguides
+
 ### Commit Messages
+
 <!-- TODO
 
 -->
@@ -148,4 +148,5 @@ Updating, improving and correcting the documentation
 
 <!-- omit in toc -->
 ## Attribution
+
 This guide is based on the [contributing.md](https://contributing.md/generator)!
