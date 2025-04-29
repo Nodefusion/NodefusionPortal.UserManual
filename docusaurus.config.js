@@ -57,6 +57,10 @@ const config = {
         googleTagManager: {
           containerId: 'GTM-K387K9ZF'
         },
+        sitemap: {
+          changefreq: 'weekly',
+          lastmod: 'datetime',          
+        },
         // blog: {
         //   showReadingTime: true,
         //   feedOptions: {
