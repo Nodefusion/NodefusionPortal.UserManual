@@ -4,7 +4,7 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
@@ -38,6 +38,70 @@ const config = {
     locales: ['en'],
   },
 
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: [
+          'always',
+          'appInstalled',
+          'saveData',
+          'queryString',
+          'standalone'
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/nodefusion-portal-512.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json',
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#d37352',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-status-bar-style',
+            content: '#d37352',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: '/img/nodefusion-portal-512.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: '/img/nodefusion-portal-512.png',
+            color: '#d37352',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileImage',
+            content: '/img/logo.svg',
+          },
+          {
+            tagName: 'meta',
+            name: 'msapplication-TileColor',
+            content: '#d37352',
+          },
+        ],
+      },
+    ],
+  ],
+
   presets: [
     [
       'classic',
@@ -56,6 +120,10 @@ const config = {
         },
         googleTagManager: {
           containerId: 'GTM-K387K9ZF'
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          lastmod: 'datetime',
         },
         // blog: {
         //   showReadingTime: true,
@@ -92,7 +160,7 @@ const config = {
           src: 'img/NFN - portal logo light.svg',
           srcDark: 'img/NFN - portal logo dark.svg',
         },
-        items: [    
+        items: [
           {
             href: 'https://github.com/Nodefusion/NodefusionPortal.UserManual/',
             label: 'GitHub',
@@ -117,7 +185,7 @@ const config = {
               {
                 label: 'Nodefusion',
                 href: 'https://www.nodefusion.com/',
-              },              
+              },
               {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/Nodefusion',
