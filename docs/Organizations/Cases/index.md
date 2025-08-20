@@ -9,7 +9,7 @@ Based on user's permissions, one can create a new case for his organization, he 
 
 ## Case List
 
-The page shows a table of active cases.
+Here you’ll find a clear overview of your organization’s active cases, limited to those created in the last 6 months.
 The table has several columns: Case Name, Case Number, Contact, Created On, Subject, Priority, Support Level and Status.
 
 Above the table there are two buttons, Create new case and TeamViewer.
