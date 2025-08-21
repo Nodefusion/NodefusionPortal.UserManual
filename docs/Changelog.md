@@ -4,5 +4,5 @@ sidebar_position: 4
 
 # Changelog
 
-## 8.5.10.0
-* active token controller activate token method passed dataverse service to logic
+## 4.2.32.0
+* Added "Organization Membership" in Organization Profile page
