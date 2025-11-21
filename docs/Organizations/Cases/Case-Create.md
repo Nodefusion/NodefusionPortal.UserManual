@@ -30,43 +30,104 @@ When you choose a subject, the form will display additional fields that will hel
 These are the available subject with their required field:
 
 - General
+- Title
+- Description
 - Nodefusion > Aexum
+- Title
+- Description
 - Nodefusion > Nodefusion Cloud Backup
+- Title
+- Description
 - Nodefusion > Customer
+- Title
+- Description
 - User Management > User Group membership
+- Title
+- Description
 - Endpoint Device > Device onboarding
 - Endpoint Device > Device offboarding
+- Device Hostname
 - Endpoint Device > Windows
+- Title
+- Description
 - Endpoint Device > IOS
+- Title
+- Description
 - Endpoint Device > Android
+- Title
+- Description
 - Endpoint Device > macOS
+- Title
+- Description
 - Endpoint Device > Endpoint General
+- Title
+- Description
 - Data > Data Migration
+- Title
+- Description
 - Data > Data Recovery
+- Title
+- Description
 - Software development
 - IT consulting
+- Title
+- Description
 - Devices > Printer
+- Title
+- Description
 - Devices > Scanner
+- Title
+- Description
 - Devices > Room System
+- Title
+- Description
 - Devices > Storage
+- Title
+- Description
 - Devices > Server
+- Title
+- Description
 - Devices > General Device
+- Title
+- Description
 - Microsoft Cloud Service > Exchange Online
+- Title
+- Description
 - Microsoft Cloud Service > SharePoint Online
+- Title
+- Description
 - Microsoft Cloud Service > Microsoft Teams
+- Title
+- Description
 - Microsoft Cloud Service > Microsoft Entra
+- Title
+- Description
 - Microsoft Cloud Service > Intune
+- Title
+- Description
 - Microsoft Cloud Service > Azure
+- Title
+- Description
 - Microsoft Cloud Service > Microsoft 365 General
+- Title
+- Description
 - Network
+- Title
+- Description
 - Windows Server
+- Title
+- Description
 - User Management > User Group membership
 - Title
 - Description
 - User Management > User onboarding
 - Display Name
 - Username
+- First Day of Work
 - User Management > User offboarding
+- Username
+- Last Day of Work
+- Allow receiving new email messages to mailbox until:
 - User Management > Credential reset
 - Username
 
