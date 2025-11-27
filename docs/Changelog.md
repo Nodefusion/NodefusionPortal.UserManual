@@ -20,11 +20,9 @@
 
 </div>
 
-<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; align-items: start;">
 
 <div>
-
-## WebAssembly
 
 ### <a id="wasm-v1-2-42"></a>v1.2.42
 - Updated case device offboarding template
@@ -149,6 +147,7 @@
 
 ### <a id="wasm-v1-2-4"></a>v1.2.4
 - Update nugget packages, updated Icons in pages
+
 
 ### <a id="wasm-v1-2-3"></a>v1.2.3
 - Removed script content BlazorApplicationInsights/JsInterop.js in index.html file
@@ -283,8 +282,6 @@
 </div>
 
 <div>
-
-## WebAPI
 
 ### <a id="webapi-v8-6-13"></a>v8.6.13.0
 * added health check
