@@ -169,9 +169,9 @@ const config = {
         ],
       },
       algolia: {
-        appId: 'RWPBAW37JU',
-        apiKey: 'ed555a45a36767f5ce11546f17933f2e',
-        indexName: 'portal-manual-nodefusion',
+        appId: 'IVSMSR6U53',
+        apiKey: '99763f5f37623578a39565fab603e0fd',
+        indexName: 'Nodefusion Portal User Manual',
       },
       colorMode: {
         respectPrefersColorScheme: true,
