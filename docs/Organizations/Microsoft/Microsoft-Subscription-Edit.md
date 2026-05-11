@@ -4,7 +4,9 @@ sidebar_position: 3
 
 # Microsoft Subscription Edit
 
-In the Microsoft Subscription page contains a form where the user can edit additional properties for the Microsoft Subscription. The user can Save the changes in the form with the Save button or cancel and return to the Microsoft Subscription page with the Cancel Button.
+The Microsoft Subscription page contains a form where you can edit additional properties for your Microsoft Subscription. You can save the changes with the Submit button or cancel and return to the Microsoft Subscription page with the Cancel button.
+
+When you enable Manage Renewal, two additional fields appear: Quantity Change to and Term Change to. These fields display your current quantity and billing cycle, allowing you to enter the new values that will take effect on your next renewal date. Once submitted, these scheduled changes cannot be viewed in this form; the values you enter will take effect upon subscription renewal date.
 
 The form has six fields:
 
