@@ -16,7 +16,8 @@ It consists of 6 fields that need to be filled:
 - Work service which enables some specific categories if your organization has them
 - Severity, and it describes the level of the case.
 There are three levels of issues. The highest critical, next is urgent and the third level is important.
-- Email or emails of contacts that will communicate the issue with Nodefusion support. User should use the semicolon ( ; ) to separate multiple emails.
+- Primary contact email address expects a single email address of contact that will communicate the issue with Nodefusion support.
+- Additional CC email addresses is optional and can be left empty; use it to include others who can help explain the issue or should just stay informed. User should use the semicolon ( ; ) to separate multiple emails.
 - Contact phone number that Nodefusion Support will use.
 - Preferred way of communication with Nodefusion Support. Available options are email or phone.
 - Consent for the calls regarding the case to be recorded.
@@ -29,7 +30,6 @@ When you choose a subject, the form will display additional fields that will hel
 
 These are the available subject with their required field:
 
-- General
 - Nodefusion > Aexum
 - Nodefusion > Nodefusion Cloud Backup
 - Nodefusion > Customer

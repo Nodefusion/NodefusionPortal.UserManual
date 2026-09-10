@@ -4,6 +4,9 @@ sidebar_position: 4
 
 # Changelog
 
+## 4.5.8.0
+* Updated fields for Case Create Form in Case Create page 
+
 ## 4.5.5.0
 * Updated fields labels for form inside Microsoft Subscription Edit page
 
