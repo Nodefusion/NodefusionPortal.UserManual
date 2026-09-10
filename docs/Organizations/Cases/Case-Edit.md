@@ -9,11 +9,12 @@ That will open the Case Edit page.
 
 The Case Edit page displays additional information regarding the Case.
 
-There are 10 fields inside the Case Edit page showing various info about the case:
+There are 11 fields inside the Case Edit page showing various info about the case:
 
 - Case number that displays case number
 - Subject displays case category information
-- Contact displays contact information for user who opened the case
+- Contact displays contact information for case primary email address
+- Additional CC email addresses displays additional emails addresses that will take part in the communicating the issue with Nodefusion support
 - Status displays current status of the case
 - Created On displays date and time when the case was created
 - Case Name displays name of the case
