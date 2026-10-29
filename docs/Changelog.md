@@ -4,6 +4,9 @@ sidebar_position: 4
 
 # Changelog
 
+## 5.0.1.0
+* Redesigned the application: new look of all pages, navigation menu grouped by section, light and dark theme, and notifications in the bell in the header
+
 ## 4.5.9.0
 * Updated fields for Case Edit Form in Case Edit page
 
