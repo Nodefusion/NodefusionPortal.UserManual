@@ -24,11 +24,11 @@ The **Details** card shows the subscription ID. The page has no option to cancel
 
 ## Send the change
 
-Select **Send change request** to send your changes, or **Cancel** to go back without changing anything. Changes of up to 20 licences or 20 % are applied automatically; larger changes need approval from Nodefusion. The request is sent to Nodefusion and is not carried out immediately; the current values stay until then. If nothing was changed, a message asks you to change at least one field first.
+Select **Send change request** to send your changes, or **Cancel** to go back without changing anything. A change is applied automatically, as soon as the request is sent, when the new number of licences is 20 or fewer, or when it differs by no more than 20 % from the current number. Other changes are sent to Nodefusion for approval: the current values stay until Nodefusion handles the request. If nothing was changed, a message asks you to change at least one field first.
 
 ## Notifications
 
-- After sending: "Change request sent. Up to 20 licences or a 20 % change applies automatically; larger changes need approval." You then return to the Microsoft page. The change is not applied yet (unless it is within the automatic limit): the current values stay until Nodefusion handles the request.
+- After sending: "Change request sent. Up to 20 licences or a 20 % change applies automatically; larger changes need approval." You then return to the Microsoft page. A change within the automatic limit is applied right away. A larger change is not applied yet: the current values stay until Nodefusion approves the request.
 - Without any change: "Please modify at least one field before saving."
 - If sending fails, an error message is shown and the form stays filled in.
 
